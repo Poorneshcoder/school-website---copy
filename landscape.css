@@ -1,0 +1,660 @@
+/* landscape media quearies for Apple iPhone 5 emulator */
+
+@media only screen 
+and (min-width:462px) 
+and (max-width:604px)  
+and (orientation:landscape){
+    .hcontent {
+        margin-left: 10%;
+        margin-top: -200px;
+        width: 95%;
+        height: 100vh;
+    }
+    .hero-content {
+        margin-left: 220px;
+        margin-top: -25px;
+    }
+
+    .background {
+        width: auto;
+        height: 124vh;
+    }
+    .hero-content button {
+        width: 160px;
+        margin-top: -20px;
+        height: 60px;
+        margin-left: 10px;
+    }
+    .record {
+        width: auto;
+        height: 211vh;
+    }
+    .class .class-cards .class-cards-1 {
+        height: 210vh;
+    }
+    .blog-scroll .sliding-cards {
+        margin-left: 80px;
+    }
+
+}
+
+/* landscape media queary for mobile for htc one emulator */
+
+@media only screen
+ and (min-width: 604px) 
+ and (max-width: 700px) {
+    
+    .hcontent {
+        margin-left: 10%;
+        margin-top: -100px;
+        width: 74%;
+        height: 80vh;
+    }
+    .background {
+        width: auto;
+        height: 100vh;
+    }
+    .hero-content {
+        margin-left: 230px;
+        margin-top: 0px;
+    }
+    .hero-content h1 {
+        margin-bottom: 24px;
+        font-size: 28px;
+    }
+    .hero-content h1 span {
+        font-size: 50px;
+    }
+    .hero-content p {
+        font-size: 20px;
+        letter-spacing: 3px;
+        margin-bottom: 20px;
+    }
+
+    .about-rotate-img {
+        margin-left: 85%;
+        margin-top: -100px;
+    }
+
+    .class .class-cards .class-cards-1 {
+        height: 165vh;
+    }
+    .class-cards-1-content {
+    height: 113vh;
+}
+    .expert-content {
+        margin-top: 110px;
+    }
+    .expert-content-box-1, .expert-content-box-2, .expert-content-box-3 {
+        width: 70%;
+        height: 85vh;
+    }
+    .expert-content-box-2 h1 {
+        margin-left: 120px;
+    }
+    .expert-content-box-3 h1 {
+        margin-left: -70px;
+    }
+    .appointment .contact {
+        height: 170vh;
+    }
+    .footer {
+        height: 200vh;
+    }
+
+
+ }
+
+ /* landscape media quearies for google nexus 7 emulator */
+
+    @media only screen 
+    and (min-width: 965px)
+    and (max-width: 1022px){
+    .top-bar{
+        display: none;
+    }
+    .navbar-nav button{
+        display: none;
+    }
+
+    .header{
+        width: auto;
+    }
+    .header img{
+        width: 100%;
+        margin-top: -10px;
+    }
+    .hcontent {
+        margin-left: 15%;
+        width: 73%;
+        height: 79vh;
+        margin-top: -125px;
+    }
+    .header-bar-section .links{
+        display: none;
+    }
+    .background{
+        width: auto;
+        height: 90vh;
+    }
+    .hero-content {
+        margin-left: 45%;
+        margin-top: 0px;
+    }
+    .hero-con-before, .hero-con-after{
+        display: none;
+    }
+    .another-bg{
+        width: auto;
+        margin: -69vh 0px 0px -50px;
+        height: auto;
+    }
+    .after-bg img{
+        width: 100%;
+        margin: auto;
+    }
+    .after-background{
+        margin-top: -58px;
+    }
+    .after-background .service-line{
+        display: none;
+    }
+
+    .service .service-content h1{
+        font-size: 30px;
+    }
+
+    .lolypop-zoom-in img{
+        display: none;
+      }
+    .star-img{
+    margin-top: -220px;
+    margin-left: 85%;
+    }
+    .service-cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .service-cards .card-1,
+    .service-cards .card-2,
+    .service-cards .card-3,.service-cards .card-4{
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+        flex: 40%;
+    }
+
+    .about-us{
+       flex-direction: column-reverse; 
+    }
+    .about-us .about-content{
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+    .about-us .about-content h1{
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .working-boxs{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .working-box-1{
+        margin-top: -40px;
+        flex: 40%;
+        height: auto;
+        padding: 10px;
+    }
+    .working-box-1 span.text {
+        font-size: 1em;
+        line-height: 20px;
+      }
+      .record{
+        height: auto;
+      }
+      .class .dog-zoom-in img{
+        display: none;
+      }
+      .class .class-cards .class-cards-1{
+        width: 50%;
+        height: 100vh;
+      }
+      .class-cards{
+        width: 80%;
+        flex-direction: column;
+      }
+      .class-cards-1-content{
+        height: 62vh;
+    }
+    .before-cloud-1, .after-cloud-2{
+        display: none;
+    }
+    .before-shape-2{
+        width: 100%;
+    }
+    .expert {
+        margin-top: -300px; 
+    }
+    .expert-content {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        margin-top: 20%;
+    }
+    .expert-content-box-1, .expert-content-box-2, .expert-content-box-3{
+        width: 50%;
+        height: 60vh;
+        margin: 10px;
+    }
+    .expert-content-box-1 img, .expert-content-box-2 img, .expert-content-box-3 img{
+        width: 50%;
+    }
+    .expert-content-box-3 h1{
+        margin-left: -18%;
+    }
+    .expert-content-box-2 h1{
+        margin-left: 12%;
+    }
+    .expert-content-box-1 h1{
+        margin-left: 43%;
+    }
+    .appointment{
+        width: auto;
+        flex-direction: column-reverse;
+    }
+    .appointment .content{
+        width: 90%;
+        padding: 10px;
+        text-align: center;
+    }
+    .appointment .content h1{
+        font-size: 35px;
+    }
+    .appointment .contact{
+        width: auto;
+        height: 105vh;
+    }
+    .appointment .contact input, .appointment .contact .email{
+        width: 90%;
+    }
+    .staff .content{
+        width: 50%;
+        margin-left: 200px;
+    }
+
+    .blog-scroll .sliding-cards{
+        grid-auto-columns: calc((100% / 2) - 12px);
+        gap: 30px;
+      }
+      .blog .cloud-img{
+        display: none;
+      }
+      .blog .apple-img{
+        margin-left: -100px;
+      }
+      .footer {
+        height: 115vh;
+    }
+      .footer-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content-1, .details, .news, .contact-us{
+        margin: 10px;
+        padding: 10px;
+        flex: 40%;
+    }
+}
+
+ /* landscape for Apple iPad mini emulator */
+
+ @media only screen
+ and (min-width: 1023px)
+ and (max-width: 1200px) {
+    .top-bar-1 p{
+        font-size: 14px;
+    }
+    .logo img{
+        width: auto;
+    }
+    .header-bar-section .links button, .header-bar-section .links .fa-magnifying-glass,
+    .header-bar-section .links .fa-bars{
+        display: none;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin-left: 0px;
+    }
+    [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+        margin-left: 5px;
+    }
+    .header-bar-section .links ul li {
+        padding: 0px;
+    }
+    .header img {
+        margin-top: -10px;
+    }
+    .hcontent {
+        margin-left: -100%;
+        margin-top: 25%;
+    }
+    .hero-con-before, .hero-con-after{
+        display: none;
+    }
+    .hero-content {
+        margin-left: 50%;
+        padding-top: 30%;
+    }
+    .hero-content h1 {
+        margin-bottom: 60px;
+        font-size: 40px;
+    }
+    .hero-content h1 span {
+        font-size: 75px;
+    }
+    .hero-content button {
+        width: 70%;
+        font-size: 24px;
+        height: 60px;
+    }
+    .service-line img {
+        margin-top: 0px;
+    }
+    .service-cards .card-1 ,.service-cards .card-2 , .service-cards .card-3 , .service-cards .card-4  {
+        height: 40vh;
+        margin: 10px;
+    }
+    .service-cards .card-1 h1,.service-cards .card-2 h1, .service-cards .card-3 h1, .service-cards .card-4 h1 {
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .service-cards .card-1 p,.service-cards .card-2 p, .service-cards .card-3 p, .service-cards .card-4 p {
+        font-size: 14px;
+    }
+    .about-us .about-content h1 {
+        font-size: 32px;
+    }
+    .about-rotate-img {
+        margin-left: 80%;
+        margin-top: -40px;
+    }
+    .about-us .about-content p {
+        opacity: 0.7;
+        line-height: 34px;
+    }
+    .record img {
+        margin-top: 21.5%;
+    }
+    .before-cloud-1 {
+        margin-left: 67%;
+    }
+    .before-shape-2 {
+        margin-top: 10px;
+    }
+    .expert-content-box-1, .expert-content-box-2, .expert-content-box-3 {
+        width: 32%;
+        height: 32vh;
+    }
+    .expert-content {
+        width: 90%;
+    }
+    .expert-content .flex h2 {
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .expert-content-box-1 h1 {
+        left: 29%;
+        margin-top: -5%;
+    }
+    .expert-content-box-2 h1 {
+        left: 60%;
+        margin-top: -5%;
+    }
+    .expert-content-box-3 h1 {
+        left: 90%;
+        margin-top: -5%;
+    }
+    .appointment {
+        width: 90%;
+    }
+    .appointment .content {
+        width: 40%;
+    }
+    .appointment .content h1 {
+        font-size: 44px;
+    }
+    .appointment .contact input {
+        width: 90%;
+    }
+    .appointment .contact {
+        height: 80vh;
+    }
+    .blog-scroll .sliding-cards {
+        grid-auto-columns: calc((100% / 2) - 12px);
+        gap: 32px;
+    }
+    .blog .cloud-img {
+        display: none;
+    }
+    .footer-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content-1, .details, .news, .contact-us{
+        margin: 10px;
+        padding: 10px;
+        flex: 40%;
+    }
+    .footer {
+        height: 80vh;
+    }
+
+ }
+
+
+@media screen and (min-width: 769px) and (max-width:964px) {
+    .top-bar{
+        display: none;
+    }
+
+    .header{
+        width: auto;
+    }
+    .header img{
+        width: 100%;
+        margin-top: -10px;
+    }
+
+    .header-bar-section .links{
+        display: none;
+    }
+    .background{
+        width: auto;
+        height: 90vh;
+    }
+    .hero-content{
+        margin-left: 270px;
+        margin-top: 100px;
+    }
+    .hero-con-before, .hero-con-after{
+        display: none;
+    }
+    .hcontent {
+        margin-left: 0%;
+        margin-top: -22%;
+        height: 80vh;
+    }
+    .another-bg{
+        width: auto;
+        margin: -69vh 0px 0px -50px;
+        height: auto;
+    }
+    .after-bg img{
+        width: 100%;
+        margin: auto;
+    }
+    .after-background{
+        margin-top: -58px;
+    }
+    .after-background .service-line{
+        display: none;
+    }
+
+    .service .service-content h1{
+        font-size: 30px;
+    }
+
+    .lolypop-zoom-in img{
+        display: none;
+      }
+    .star-img{
+    margin-top: -220px;
+    margin-left: 85%;
+    }
+    .service-cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .service-cards .card-1,
+    .service-cards .card-2,
+    .service-cards .card-3,.service-cards .card-4{
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+        flex: 40%;
+    }
+
+    .about-us{
+       flex-direction: column-reverse; 
+    }
+    .about-us .about-content{
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+    .about-us .about-content h1{
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .working-boxs{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .working-box-1{
+        margin-top: -40px;
+        flex: 40%;
+        height: auto;
+        padding: 10px;
+    }
+    .working-box-1 span.text {
+        font-size: 1em;
+        line-height: 20px;
+      }
+      .record{
+        height: auto;
+      }
+      .class .dog-zoom-in img{
+        display: none;
+      }
+      .class .class-cards .class-cards-1{
+        width: 50%;
+        height: 80vh;
+      }
+      .class-cards{
+        width: 80%;
+        flex-direction: column;
+      }
+      .class-cards-1-content{
+        height: 40vh;
+    }
+    .before-cloud-1, .after-cloud-2{
+        display: none;
+    }
+    .before-shape-2{
+        width: 100%;
+    }
+    .expert {
+        margin-top: -115px; 
+    }
+    .expert-content {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+    }
+    .expert-content-box-1, .expert-content-box-2, .expert-content-box-3{
+        width: 64%;
+        height: 50vh;
+        margin: 10px;
+    }
+    .expert-content-box-1 img, .expert-content-box-2 img, .expert-content-box-3 img{
+        width: 50%;
+    }
+    .expert-content-box-3 h1{
+        margin-left: -12%;
+    }
+    .expert-content-box-2 h1{
+        margin-left: 18%;
+    }
+    .expert-content-box-1 h1{
+        margin-left: 48%;
+    }
+    .appointment{
+        width: auto;
+        flex-direction: column-reverse;
+    }
+    .appointment .content{
+        width: 90%;
+        padding: 10px;
+        text-align: center;
+    }
+    .appointment .content h1{
+        font-size: 35px;
+    }
+    .appointment .contact{
+        width: auto;
+    }
+    .appointment .contact input, .appointment .contact .email{
+        width: 90%;
+    }
+    .staff .content{
+        width: 50%;
+        margin-left: 200px;
+    }
+
+    .blog-scroll .sliding-cards{
+        grid-auto-columns: calc((100% / 2) - 12px);
+        gap: 30px;
+      }
+      .blog .cloud-img{
+        display: none;
+      }
+      .blog .apple-img{
+        margin-left: -100px;
+      }
+
+      .footer{
+        height: 90vh;
+      }
+      .footer-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content-1, .details, .news, .contact-us{
+        margin: 10px;
+        padding: 10px;
+        flex: 40%;
+    }
+
+}
+
+@media only screen 
+and (min-width:1201px)
+and (max-width:1400px){
+
+}
+
+
