@@ -25,6 +25,14 @@ and (orientation:landscape){
         height: 60px;
         margin-left: 10px;
     }
+    .after-background {
+        margin-top: -3%;
+    }
+    .after-bg img{
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+    }
     .record {
         width: auto;
         height: 211vh;
@@ -106,7 +114,7 @@ and (orientation:landscape){
     }
     .after-bg img {
         width: 100%;
-        margin-top: -42%;
+        margin-top: -41%;
     }
     .after-background{
         margin-top: -58px;
@@ -183,7 +191,8 @@ and (orientation:landscape){
       }
       .class .class-cards .class-cards-1{
         width: 50%;
-        height: 138vh;
+        height: auto;
+        margin: 10px;
         /* margin-top: -100px; */
       }
       .class-cards{
@@ -193,7 +202,7 @@ and (orientation:landscape){
         margin-left: 6%;
       }
       .class-cards-1-content{
-        height: 110vh;
+        height: auto;
     }
     .before-cloud-1, .after-cloud-2{
         display: none;
@@ -211,7 +220,7 @@ and (orientation:landscape){
     }
     .expert-content-box-1, .expert-content-box-2, .expert-content-box-3{
         width: 75%;
-        height: 92vh;
+        height: auto;
         margin: 10px;
     }
     .expert-content-box-1 img, .expert-content-box-2 img, .expert-content-box-3 img{
@@ -240,7 +249,7 @@ and (orientation:landscape){
     }
     .appointment .contact{
         width: auto;
-        height: 170vh;
+        height: auto;
     }
     .appointment .contact input, .appointment .contact .email{
         width: 90%;
@@ -269,7 +278,7 @@ and (orientation:landscape){
         margin-left: -10%;
     }
     .footer{
-        height: 200vh;
+        height: auto;
     }
       .footer-section{
         display: flex;
@@ -399,14 +408,15 @@ and (orientation:landscape){
       }
       .class .class-cards .class-cards-1{
         width: 50%;
-        height: 100vh;
+        height: auto;
+        margin: 10px;
       }
       .class-cards{
         width: 80%;
         flex-direction: column;
       }
       .class-cards-1-content{
-        height: 62vh;
+        height: auto;
     }
     .before-cloud-1, .after-cloud-2{
         display: none;
@@ -415,7 +425,7 @@ and (orientation:landscape){
         width: 100%;
     }
     .expert {
-        margin-top: -300px; 
+        margin-top: -21%; 
     }
     .expert-content {
         width: auto;
@@ -425,7 +435,7 @@ and (orientation:landscape){
     }
     .expert-content-box-1, .expert-content-box-2, .expert-content-box-3{
         width: 50%;
-        height: 60vh;
+        height: auto;
         margin: 10px;
     }
     .expert-content-box-1 img, .expert-content-box-2 img, .expert-content-box-3 img{
@@ -454,7 +464,7 @@ and (orientation:landscape){
     }
     .appointment .contact{
         width: auto;
-        height: 105vh;
+        height: auto;
     }
     .appointment .contact input, .appointment .contact .email{
         width: 90%;
@@ -540,9 +550,10 @@ and (orientation:landscape){
     }
     .service-line img {
         margin-top: 0px;
+        display: none;
     }
     .service-cards .card-1 ,.service-cards .card-2 , .service-cards .card-3 , .service-cards .card-4  {
-        height: 40vh;
+        height: auto;
         margin: 10px;
     }
     .service-cards .card-1 h1,.service-cards .card-2 h1, .service-cards .card-3 h1, .service-cards .card-4 h1 {
@@ -574,7 +585,7 @@ and (orientation:landscape){
     }
     .expert-content-box-1, .expert-content-box-2, .expert-content-box-3 {
         width: 32%;
-        height: 32vh;
+        height: auto;
     }
     .expert-content {
         width: 90%;
@@ -608,7 +619,7 @@ and (orientation:landscape){
         width: 90%;
     }
     .appointment .contact {
-        height: 80vh;
+        height: auto;
     }
     .blog-scroll .sliding-cards {
         grid-auto-columns: calc((100% / 2) - 12px);
@@ -651,19 +662,29 @@ and (orientation:landscape){
     }
     .background{
         width: auto;
-        height: 90vh;
+        height: 100vh;
     }
     .hero-content{
         margin-left: 270px;
-        margin-top: 100px;
+        margin-top: -8%;
+    }
+    .hero-content p {
+        font-size: 18px;
+    }
+    .hero-content h1{
+        font-size: 26px;
+    }
+    .hero-content h1 span{
+        font-size: 50px;
     }
     .hero-con-before, .hero-con-after{
         display: none;
     }
     .hcontent {
-        margin-left: 0%;
-        margin-top: -22%;
-        height: 80vh;
+        margin-left: 10%;
+        margin-top: -21%;
+        margin-bottom: 13px;
+        height: 85vh;
     }
     .another-bg{
         width: auto;
@@ -741,14 +762,15 @@ and (orientation:landscape){
       }
       .class .class-cards .class-cards-1{
         width: 50%;
-        height: 80vh;
+        height: auto;
+        margin: 10px;
       }
       .class-cards{
         width: 80%;
         flex-direction: column;
       }
       .class-cards-1-content{
-        height: 40vh;
+        height: auto;
     }
     .before-cloud-1, .after-cloud-2{
         display: none;
@@ -757,7 +779,7 @@ and (orientation:landscape){
         width: 100%;
     }
     .expert {
-        margin-top: -115px; 
+        margin-top: -50px; 
     }
     .expert-content {
         width: auto;
@@ -766,7 +788,7 @@ and (orientation:landscape){
     }
     .expert-content-box-1, .expert-content-box-2, .expert-content-box-3{
         width: 64%;
-        height: 50vh;
+        height: auto;
         margin: 10px;
     }
     .expert-content-box-1 img, .expert-content-box-2 img, .expert-content-box-3 img{
@@ -795,6 +817,7 @@ and (orientation:landscape){
     }
     .appointment .contact{
         width: auto;
+        height: auto;
     }
     .appointment .contact input, .appointment .contact .email{
         width: 90%;

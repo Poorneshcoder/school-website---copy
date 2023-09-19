@@ -240,7 +240,8 @@
         margin-left: 10%;
         margin-top: -130px;
         width: 95%;
-        height: 63vh;
+        height: auto;
+        /* height: 63vh; */
     }
     .hero-content{
         margin-left: 250px;
@@ -276,7 +277,7 @@
         margin-top: 127px;
     }
     .after-background{
-        margin-top: -58px;
+        margin-top: 19%;
     }
     .after-background .service-line{
         display: none;
@@ -341,7 +342,7 @@
       }
       .record{
         width: auto;
-        height: 70vh;
+        height: auto;
       }
       .record img{
         padding-top: 334px;
@@ -721,7 +722,7 @@
         width: auto;
         height: 100vh;
     }
-
+ 
     .hcontent{
         margin-left: 1%;
         /* margin-top: -130px; */
@@ -1051,7 +1052,7 @@
     .service-cards .card-3,.service-cards .card-4{
         width: 100%;
         height: auto;
-        margin: 10px 0px 10px 30px;
+        margin: 10px 0px 10px 5px;
         padding: 10px;
     }
 
@@ -1091,7 +1092,7 @@
       }
       .record{
         width: auto;
-        height: 270vh;
+        height: 115vh;
       }
       .record img{
         display: none;
@@ -1425,7 +1426,7 @@
         margin-bottom: 115px;
       }
       .class-cards-1-content{
-        height: 40vh;
+        height: auto;
     }
     .class-cards-1 .inline-items p{
         font-size: 14px;
