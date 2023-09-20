@@ -564,6 +564,18 @@
         margin-left: 80%;
         display: none;
     }
+    .slider-container {
+        width: auto;
+        overflow: hidden;
+        position: relative;
+    }
+    .prev {
+        left: -20px;
+    }
+    
+    .next {
+        right: 0;
+    }
 
     .working-boxs{
         margin-left: 40px;
@@ -810,6 +822,19 @@
     .about-rotate-img{
         margin-left: 75%;
         display: none;
+    }
+
+    .slider-container {
+        width: auto;
+        overflow: hidden;
+        position: relative;
+    }
+    .prev {
+        left: -20px;
+    }
+    
+    .next {
+        right: 0;
     }
 
     .working-boxs{
@@ -1074,7 +1099,18 @@
     .about-rotate-img{
        display: none;
     }
-
+    .slider-container {
+        width: auto;
+        overflow: hidden;
+        position: relative;
+    }
+    .prev {
+        left: -20px;
+    }
+    
+    .next {
+        right: 0;
+    }
     .working-boxs{
         margin-left: 30px;
         margin-top: 225px;

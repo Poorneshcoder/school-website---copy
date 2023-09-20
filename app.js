@@ -144,5 +144,25 @@ wrapper.addEventListener("mouseleave", autoPlay);
 
 
 
+        // image slider
+
+        let currentImageIndex = 0;
+        const images = document.querySelectorAll('.slider-image');
+
+        function showImage(index) {
+            images[currentImageIndex].style.display = 'none';
+            currentImageIndex = (index + images.length) % images.length;
+            images[currentImageIndex].style.display = 'block';
+        }
+
+        function changeImage(step) {
+            showImage(currentImageIndex + step);
+        }
+
+        // Show the initial image
+        showImage(currentImageIndex);
+
+
+
 
 

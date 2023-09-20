@@ -437,6 +437,58 @@ button{
 .about-img{
     animation: rotateShape 10s linear infinite;
 }
+
+/* image slider */
+
+/* CSS for the image slider container */
+.slider-container {
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* CSS for the image slider images */
+.slider-image {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+/* CSS for navigation buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    background-color: #9c29b2;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border: none;
+    border-radius: 20px;
+}
+
+/* Position the navigation buttons */
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+/* Hover state for navigation buttons */
+.prev:hover, .next:hover {
+    background-color: #88c90d;
+}
+
+
+
+
+
 /* section-4  record section */
 
 .record{
