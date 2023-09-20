@@ -45,6 +45,29 @@ and (orientation:landscape){
     }
 
 }
+/* landscape media queary for mobile for Nokia Lumia 920 emulator */
+
+@media screen 
+and (min-width: 701px) 
+and (max-width:768px)
+and (orientation:landscape){
+    .hero-content {
+        margin-left: 35%;
+        margin-top: 0%;
+        /* margin: auto; */
+    }
+    .background {
+        width: auto;
+        height: 120vh;
+    }
+    .hcontent {
+        margin-left: 3%;
+        width: 80%;
+        /* height: 37%; */
+        margin-top: -41%;
+        margin-bottom: 1%;
+    }
+ }
 
 /* landscape media queary for mobile for htc one emulator */
 
