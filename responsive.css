@@ -721,6 +721,12 @@
     .navbar-nav button{
         display: none;
     }
+    .navbar-brand{
+        width: 65%;
+    }
+    .navbar-toggler{
+        width: auto;
+    }
     .header{
         width: auto;
     }
@@ -993,6 +999,13 @@
     }
     .navbar-nav button{
         display: none;
+    }
+    .navbar-brand{
+        width: 65%;
+        /* margin-right: -50px; */
+    }
+    .navbar-toggler{
+        width: auto;
     }
 
     .header{
@@ -1414,6 +1427,9 @@
     }
     .about-us .about-content p {
         width: 115%;
+    }
+    .slider-container{
+        width: auto;
     }
 
     .working-boxs{
