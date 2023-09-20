@@ -549,6 +549,10 @@ and (orientation:landscape){
         font-size: 24px;
         height: 60px;
     }
+    .after-bg img {
+        width: 100%;
+        margin-top: 45px;
+    }
     .service-line img {
         margin-top: 0px;
         display: none;
