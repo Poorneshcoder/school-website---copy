@@ -1114,6 +1114,76 @@ and (orientation:landscape){
         padding: 10px;
         flex: 40%;
     }
+        /* contact form css */
+
+  .contact-information{
+    width: auto;
+    flex-direction: column;
+    }
+    .contact-information .message{
+        width: 80%;
+        margin: 50px;
+    }
+    .contact-information .information{
+        width: 80%;
+    }
+    .contact-information .information .map iframe{
+        width: 100%;
+    }
+
+    
+
+    /* about page css */
+
+    .counter-section{
+        margin-top: -10%;
+        height: 95vh;
+      }
+      .counter-section .mg-top{
+        margin-top: 40%;
+      }
+      .counter-section .mg-top .counter-down{
+        margin-top: -115%;
+      }
+    
+    
+      .counter-section .counter-before{
+        margin-top: -138%;
+        /* display: none; */
+        }
+        .counter-section .counter-after{
+            display: none;
+        }
+    
+      .about-section{
+        width: auto;
+        margin: 18%;
+        flex-direction: column;
+    }
+    .about-content-section{
+        width: auto;
+    }
+    .work-process img{
+        display: none;
+    }
+    
+    
+    .work-process .work-process-bottom{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .work-process-box-1{
+        margin: 10px;
+        padding: 10px;
+        flex: 40%;
+    }
+
+    .staff .staff-before-img {
+        margin-top: -42%;
+    }
+    .staff .staff-after-img {
+        margin-bottom: -34%;
+    }
 
 }
 
