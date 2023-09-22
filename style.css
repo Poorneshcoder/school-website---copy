@@ -99,6 +99,10 @@ button{
     background-color: #9c29b2;
     border: none;
 }
+button a{
+    color: #fff;
+    text-decoration: none;
+}
 
 /* section-1  hero section */
 
@@ -1522,4 +1526,298 @@ button{
         cursor: pointer;
     }
 
+
+
+
+    /* CSS for the conatct page */
+
+    .contact-hero{
+        width: 100%;
+        height: 60vh;
+        /* margin-top: -20px; */
+        margin-bottom: 10%;
+        background-image: url(./images/breadcrumb-bg-1.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .contact-content{
+        width: 100%;
+        padding-top: 200px;
+        color: #fff;
+        text-align: center;
+        justify-content: center;
+    }
+    .contact-content h1{
+        font-size: 56px;
+        font-weight: 900;
+        letter-spacing: 1px;
+    }
+
+    .contact-information{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .contact-information h1{
+        font-size: 32px;
+        font-weight: 800;
+    }
+    .contact-information h4{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .contact-information hr{
+        width: 80px;
+        height: 5px;
+        background-color: #cf0df6;
+    }
+
+    .contact-information .message{
+        width: 40%;
+        border: 2px dashed rgb(235, 235, 235);
+        box-shadow: 0px 8px 40px 0px rgba(105, 116, 119, 0.08);
+        border-radius: 30px;
+        background-color: rgb(253, 253, 253);
+        padding: 35px 40px 40px 40px;
+    }
+
+    .contact-information .message form{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-information .message button{
+        margin-top: 10px;
+    }
+   .contact-information .message form input,
+    .contact-information .message form textarea{
+        margin: 10px;
+        padding: 10px;
+        background-color: #f9f6ef;
+        border-radius: 10px;
+        border: none;
+    }
+
+    .contact-information .information{
+        width: 55%;
+        border: 2px dashed rgb(235, 235, 235);
+        box-shadow: 0px 8px 40px 0px rgba(105, 116, 119, 0.08);
+        border-radius: 30px;
+        padding: 35px 40px 40px 40px;
+    }
+    .contact-information .information .information-box{
+        margin-bottom: 10px;
+        display: flex;
+    }
+    .contact-information .information i{
+        width: 75px;
+        height: 75px;
+        background-color: #ffffff;
+        text-align: center;
+        line-height: 54px;
+        border-radius: 50%;
+        border: 10px solid #fef5ff;
+        margin-right: 25px;
+    }
+    .contact-information .information .map iframe{
+        margin-top: 10px;
+        border-radius: 50px;
+    }
+
+
+
+    /* CSS for about us page */
+
+    .counter-section{
+        padding: 230px 0px;
+        background-image: url(./images/counter.jpg);
+        background-color: #103741;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 0.8;
+        
+    }
+    .counter-section .counter-img img{
+        background-color: #103741;
+    }
+
+    .record .mg-top{
+        margin-top: -100px;
+    }
+
+    
+    .record .working-box-1 img{
+        width: 25%;
+        margin-left: 90px;
+    }
+    .record .working-box-1 .num-white,.record .working-box-1 .text-white{
+        color: #fff;
+    }
+    .counter-section .counter-before{
+        margin-top: -28%;
+    }
+    .counter-section .counter-after{
+        margin-top: 8%;
+    }
+
+
+    /* section-2  about content section */
+
+    .about-section{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+   
+    .about-img-section img{
+        border-radius: 50%;
+    }
+
+    .about-img-section .about-img-1{
+        width: 75%;
+
+    }
+    .about-img-section .about-img-2{
+        width: 35%;
+        margin-left: -30%;
+        margin-top: 50%;
+    }
+
+    .about-content-section{
+        width: 65%;
+    }
+    .about-content-section h4{
+        color: #9c29b2;
+        font-weight: 600;
+    }
+    .about-content-section h1{
+        color: #103741;
+        font-weight: 800;
+    }
+    .about-content-section p{
+        margin-top: 10px;
+        opacity: 0.6;
+        line-height: 2;
+    }
+    .about-contact{
+        display: flex;
+        align-items: center;
+        border-left: 3px solid #9c29b2;
+        box-shadow: 0 0 30px 3px rgba(0, 0, 0, 0.05);
+        padding: 20px 20px 20px 30px;
+        margin: 0 0 40px 0;
+        max-width: 350px;
+        text-align: left;
+    }
+    .about-contact i{
+        font-size: 30px;
+        width: 24%;
+        height: 5vh;
+        color: #9c29b2;
+    }
+    .about-contact h6{
+        font-size: 14px;
+        font-weight: 500;
+        opacity: 0.5;
+    }
+    .about-content-section button{
+        background: none;
+        color: #9c29b2;
+        border: 1px solid #9c29b2;
+    }
+    .about-content-section button:hover{
+        background: #88c90d;
+        color: #fff;
+        border: none;
+    }
+
+
+    /* section-4  work process section */
+
+    .work-process {
+        margin-top: 10%;
+        margin-bottom: 10%;
+
+    }
+    .work-process .work-process-top{
+        text-align: center;
+    }
+    .work-process .work-process-top h5{
+        color: #9c29b2;
+        font-weight: 600;
+    }
+    .work-process .work-process-top h1{
+        color: #103741;
+        font-weight: 600;
+    }
+    .work-process .work-process-bottom{
+        margin: auto;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .work-process-box-1{
+        width: 200px;
+        height: 210px;
+        box-shadow: 0px 20px 60px 0px rgba(16, 55, 65, 0.06);
+        background-color: #fff;
+        text-align: center;
+        margin-left: 24px;
+        border-radius: 0 50% 50% 50%;
+        position: relative;
+    }
+    .work-process-box-1 h3{
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        border-radius: 50%;
+        color: #fff;
+        background-color: #9c29b2;
+        display: block;
+        font-size: 24px;
+        font-weight: 500;
+        text-align: center;
+        transform: translate(-24px, -24px);
+        position: relative;
+    }
+    .work-process-bottom .down{
+        margin-top: 10%;
+    }
+    .work-process-content i{
+        margin-bottom: 20px;
+        font-size: 30px;
+        color: #9c29b2;
+    }
+    .work-process-content h6{
+        font-weight: 600;
+        color: #103741;
+    }
+
+    .work-process img{
+        margin-top: -20%;
+        margin-left: 7%;
+    }
+
+    /* section-8  staff section */
+
+    .staff .staff-before-img{
+        margin-top: -18%;
+        width: 100%;
+    }
+    .staff .staff-after-img{
+        margin-bottom: -15%;
+        width: 100%;
+    }
 

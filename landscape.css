@@ -44,6 +44,31 @@ and (orientation:landscape){
         margin-left: 80px;
     }
 
+    /* contact form css */
+
+    .contact-hero{
+        height: auto;
+    }
+    .contact-content {
+        padding-bottom: 150px;
+    }
+
+    .counter-section{
+        width: auto;
+        height: 310vh;
+    }
+
+    .counter-section .counter-before {
+        margin-top: -147%;
+        /* display: none; */
+    }
+
+    .counter-section .mg-top {
+        margin-top: 45%;
+    }
+
+
+
 }
 /* landscape media queary for mobile for Nokia Lumia 920 emulator */
 
@@ -66,6 +91,23 @@ and (orientation:landscape){
         /* height: 37%; */
         margin-top: -41%;
         margin-bottom: 1%;
+    }
+    .contact-hero{
+        height: auto;
+    }
+    .contact-content{
+        padding-bottom: 100px;
+    }
+    .counter-section .mg-top .counter-down{
+        margin-top: -30%;
+      }
+      .staff .staff-before-img {
+        margin-top: -33%;
+        width: 100%;
+    }
+    .staff .staff-after-img {
+        margin-bottom: -27%;
+        width: 100%;
     }
  }
 
@@ -314,6 +356,79 @@ and (orientation:landscape){
         flex: 40%;
     }
 
+      /* contact form css */
+
+    .contact-hero{
+        height: auto;
+    }
+
+    .contact-content{
+    padding-bottom: 200px;
+    }
+
+  .contact-information{
+    width: auto;
+    flex-direction: column;
+    }
+    .contact-information .message{
+        width: 80%;
+        margin: 50px;
+    }
+    .contact-information .information{
+        width: 80%;
+    }
+    .contact-information .information .map iframe{
+        width: 100%;
+    }
+
+        /* about page css */
+
+      /* .counter-section{
+        margin-top: 20%;
+        height: 95vh;
+      } */
+      .counter-section .mg-top{
+        margin-top: 0%;
+      }
+      .counter-section .mg-top .counter-down{
+        margin-top: -30%;
+      }
+    
+    
+      .counter-section .counter-before{
+        /* margin-top: -138%; */
+        display: none;
+        }
+        .counter-section .counter-after{
+            display: none;
+        }
+    
+      .about-section{
+        width: auto;
+        margin: 18%;
+        flex-direction: column;
+    }
+    .about-content-section{
+        width: auto;
+    }
+    .work-process img{
+        display: none;
+    }
+    
+    
+    .work-process .work-process-bottom{
+        margin-top: 10%;
+        flex-direction: column;
+    }
+
+    .staff .staff-before-img {
+        margin-top: -38%;
+    }
+    .staff .staff-after-img {
+        margin-bottom: -32%;
+    }
+
+
 
  }
 
@@ -520,6 +635,79 @@ and (orientation:landscape){
         padding: 10px;
         flex: 40%;
     }
+
+  /* contact form css */
+
+  .contact-information{
+    width: auto;
+    flex-direction: column;
+    }
+    .contact-information .message{
+        width: 80%;
+        margin: 50px;
+    }
+    .contact-information .information{
+        width: 80%;
+    }
+    .contact-information .information .map iframe{
+        width: 100%;
+    }
+
+        /* about page css */
+
+        .counter-section{
+            margin-top: -10%;
+            height: 95vh;
+          }
+          .counter-section .mg-top{
+            margin-top: 5%;
+          }
+          .counter-section .mg-top .counter-down{
+            margin-top: -20%;
+          }
+        
+        
+          .counter-section .counter-before{
+            margin-top: -47%;
+            /* display: none; */
+            }
+            .counter-section .counter-after{
+                display: none;
+            }
+        
+          .about-section{
+            width: auto;
+            margin: 18%;
+            flex-direction: column;
+        }
+        .about-content-section{
+            width: auto;
+        }
+        .work-process img{
+            display: none;
+        }
+        
+        
+        .work-process .work-process-bottom{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .work-process-box-1{
+            margin: 10px;
+            padding: 10px;
+            flex: 40%;
+        }
+    
+        .staff .staff-before-img {
+            margin-top: -27%;
+        }
+        .staff .staff-after-img {
+            margin-bottom: -22%;
+        }
+
+
+
+
 }
 
  /* landscape for Apple iPad mini emulator */
@@ -669,6 +857,53 @@ and (orientation:landscape){
     .footer {
         height: auto;
     }
+
+    /* contact form css */
+
+    .contact-information{
+        width: auto;
+        margin: 20px;
+        margin-bottom: 50px;
+    }
+
+    .contact-information .information .map iframe{
+        width: 100%;
+    }
+
+
+    /* about us page css */
+
+    .about-section{
+        width: 90%;
+    }
+
+    .counter-section .counter-before {
+        margin-top: -44%;
+    }
+    .counter-section .counter-after {
+        margin-top: 15%;
+    }
+
+    .work-process .work-process-bottom{
+        margin: auto;
+        width: auto;
+    }
+
+    .work-process img{
+        width: 90%;
+    }
+
+    .staff .staff-before-img{
+        margin-top: -25%;
+    }
+    .staff .staff-after-img{
+        margin-top: 6%;
+    }
+
+
+
+
+
 
  }
 
