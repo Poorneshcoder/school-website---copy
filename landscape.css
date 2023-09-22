@@ -1116,6 +1116,10 @@ and (orientation:landscape){
     }
         /* contact form css */
 
+    .contact-content{
+        padding: initial;
+    }
+
   .contact-information{
     width: auto;
     flex-direction: column;
@@ -1140,15 +1144,15 @@ and (orientation:landscape){
         height: 95vh;
       }
       .counter-section .mg-top{
-        margin-top: 40%;
+        margin-top: 0%;
       }
       .counter-section .mg-top .counter-down{
-        margin-top: -115%;
+        margin-top: -30%;
       }
     
     
       .counter-section .counter-before{
-        margin-top: -138%;
+        margin-top: -56%;
         /* display: none; */
         }
         .counter-section .counter-after{
@@ -1179,10 +1183,11 @@ and (orientation:landscape){
     }
 
     .staff .staff-before-img {
-        margin-top: -42%;
+        margin-top: -28%;
     }
     .staff .staff-after-img {
-        margin-bottom: -34%;
+        margin-bottom: -26%;
+        /* margin: auto; */
     }
 
 }
