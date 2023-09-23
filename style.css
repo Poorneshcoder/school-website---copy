@@ -422,14 +422,14 @@ button a{
 .about-us .about-content p{
     opacity: 0.8;
 }
-.about-us .about-content button{
+/* .about-us .about-content button{
     width: 150px;
     height: 50px;
-    color: #9c29b2;
+    color: #000;
     border: 2px solid purple;
     border-radius: 20px;
     background: none;
-}
+} */
 .about-us .about-content button:hover{
     background-color: #88c90d;
 }
@@ -876,13 +876,12 @@ button a{
 .appointment .content p{
     opacity: 0.7;
 }
-.appointment .content button{
+/* .appointment .content button{
     background: none;
     border: 2px solid #9c29b2;
-    /* border-color: #9c29b2; */
     border-radius: 25px;
     color: #9c29b2;
-}
+} */
 .appointment .content button:hover{
     color: white;
     background-color: #88c90d;
