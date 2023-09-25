@@ -127,11 +127,12 @@ button a{
     margin-left: 15%;
 }
 .hcontent{
-    margin-left: -8%;
+    margin: auto;
+    /* margin-left: -25%; */
 }
 .hero-content{
     position: absolute;
-    margin-left: 62%;
+    margin-left: 50%;
     padding-top: 15%;
     z-index: 1;
 }
@@ -159,9 +160,16 @@ button a{
     background-color: #88c90d;
 }
 .hero-con-after{
-    margin-top: -20%;
-    margin-left: -10%;
+    /* margin-top: -20%;
+    margin-left: -5%; */
+    display: none;
 }
+.hero-con-before{
+    /* margin-top: -20%;
+    margin-left: -5%; */
+    display: none;
+}
+
 .after-bg img{
     width: 100%;
     margin-top: 50px;
@@ -244,8 +252,8 @@ button a{
 /* card 1 */
 
 .service-cards .card-1{
-    width: 30%;
-    height: 45vh;
+    width: auto;
+    height: auto;
     margin: 25px;
     padding: 25px;
     text-align: center;
@@ -258,6 +266,7 @@ button a{
 .service-cards .card-1 h1{
     padding: 10px;
     color: #fe5d37;
+    font-size: 30px;
 }
 .service-cards .card-1 p{
     font-size: 18px;
@@ -281,8 +290,8 @@ button a{
 /* card 2 */
 
 .service-cards .card-2{
-    width: 30%;
-    height: 45vh;
+    width: auto;
+    height: auto;
     margin: 25px;
     padding: 25px;
     text-align: center;
@@ -318,8 +327,8 @@ button a{
 /* card 3 */
 
 .service-cards .card-3{
-    width: 30%;
-    height: 45vh;
+    width: auto;
+    height: auto;
     margin: 25px;
     padding: 25px;
     text-align: center;
@@ -358,8 +367,8 @@ button a{
 /* card 4 */
 
 .service-cards .card-4{
-    width: 30%;
-    height: 45vh;
+    width: auto;
+    height: auto;
     margin: 25px;
     padding: 25px;
     text-align: center;
@@ -497,7 +506,7 @@ button a{
 
 .record{
     padding-top: 150px;
-    height: 50vh;
+    height: auto;
     background: #dbeaf7;
 }
 .record img{
@@ -644,7 +653,7 @@ button a{
   }
   .class-cards-1-content{
     width: 125%;
-    height: 60vh;
+    height: auto;
     padding: 25px;
     border-radius: 50px;
     background: #fef5ff;
@@ -824,7 +833,7 @@ button a{
 
 .appointment .contact {
     width: 50%;
-    height: 70vh;
+    height: auto;
     padding: 50px;
     background: #fef5ff;
     border-radius: 25px;
@@ -1145,7 +1154,7 @@ button a{
 
 .footer{
     width: 100%;
-    height: 75vh;
+    height: auto;
     margin-top: -20px;
     background-image: url(./images/footer-4.jpg);
     background-repeat: no-repeat;
@@ -1419,6 +1428,9 @@ button a{
         background: #0077b5;
     }
     
+
+
+
     .news-1{
         width: 100%;
         color: white;
@@ -1658,12 +1670,12 @@ button a{
     .record .working-box-1 .num-white,.record .working-box-1 .text-white{
         color: #fff;
     }
-    .counter-section .counter-before{
-        margin-top: -28%;
+    /* .counter-section .counter-before{
+        margin-top: 100%;
     }
     .counter-section .counter-after{
-        margin-top: 8%;
-    }
+        margin-bottom: 10%;
+    } */
 
 
     /* section-2  about content section */
